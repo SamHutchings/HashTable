@@ -1,0 +1,30 @@
+﻿Build started 25/01/2012 10:18:15.
+     1>Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\hashtableN0234219\hashtableN0234219\hashtableN0234219.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\hashtableN0234219.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\gtest\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hashtableN0234219.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt unittests.cpp
+         unittests.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\hashtableN0234219\Debug\hashtableN0234219.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\gtest\msvc\gtest\Debug gtestd.lib gtest_maind.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hashtableN0234219.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\hashtableN0234219\Debug\hashtableN0234219.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\hashtableN0234219\Debug\hashtableN0234219.lib" /MACHINE:X86 Debug\hashtableN0234219.exe.embed.manifest.res
+         Debug\hashtableN0234219.obj
+         Debug\stdafx.obj
+         Debug\unittests.obj
+     1>LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hashtableN0234219.exe.embed.manifest" /manifest Debug\hashtableN0234219.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         hashtableN0234219.vcxproj -> C:\Users\Sam\Documents\Visual Studio 2010\Projects\hashtableN0234219\Debug\hashtableN0234219.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\hashtableN0234219.unsuccessfulbuild".
+         Touching "Debug\hashtableN0234219.lastbuildstate".
+     1>Done Building Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\hashtableN0234219\hashtableN0234219\hashtableN0234219.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.72
